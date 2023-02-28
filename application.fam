@@ -1,0 +1,10 @@
+App(
+    appid="helpDesk",
+    name="Help Desk Fuzzer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="main_helpDesk",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_icon="helpDesk_10px.png",
+    fap_category="Examples",
+)
